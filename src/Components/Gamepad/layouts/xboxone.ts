@@ -1,6 +1,6 @@
 
 export default {
-    src: "./gamepadxboxonesprite.png",
+    src: "./f82018-gamepadxboxonesprite.png",
     size: {
         w: 1040,
         h: 815
