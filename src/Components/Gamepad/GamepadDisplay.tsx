@@ -47,7 +47,7 @@ export class GamepadDisplay extends React.Component {
         this.gamepadCanvasElement.height = canvasSize.h;
         this.gamepadRenderingContext = this.gamepadCanvasElement.getContext("2d");
         var pxloader = new PxLoader();
-        this.spriteimage = pxloader.addImage("/gamepadSprite.png");
+        this.spriteimage = pxloader.addImage("gamepadSprite.png");
         pxloader.addCompletionListener(() => {
             window.requestAnimationFrame(this.updateAnimationBound)
         });
