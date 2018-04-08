@@ -28,7 +28,6 @@ render() {
 
 ## To Do
 
-* Standard Events and Mappings
 * Extract to dist folder and publish as npm package
 
 ## License
