@@ -1,0 +1,10 @@
+{
+    "search.exclude": {
+        "**/.fusebox": true,
+        "**/build": true
+      },
+      "files.exclude": {
+        "**/.fusebox": true
+    },
+    "javascript.implicitProjectConfig.experimentalDecorators": true
+}

@@ -1,0 +1,40 @@
+{
+  "name": "bestyled-gamepad",
+  "version": "0.1.0",
+  "private": false,
+  "license": "Apache-2.0",
+  "author": "Headlight Studios",
+  "devDependencies": {
+    "fuse-box-react-scripts": "3.0.78",
+    "fuse-box-react-scripts-ts": "3.0.78",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "gaugeJS": "^1.3.6",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "scripts": {
+    "start": "fuse-box-react-scripts start",
+    "build": "rimraf docs && fuse-box-react-scripts build && cp -a ./build ./docs",
+    "test": "fuse-box-react-scripts test --env=jsdom",
+    "eject": "fuse-box-react-scripts eject",
+    "ejectconfig": "fuse-box-react-scripts ejectconfig"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  },
+  "directories": {
+    "config": "node_modules/fuse-box-react-scripts-ts/config"
+  }
+}
