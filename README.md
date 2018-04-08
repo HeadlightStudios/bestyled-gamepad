@@ -8,9 +8,11 @@ Supports any HTML connected gamepad with standard mappings.
 
 For example, use a wired XBox One Controller on a Mac and Chrome with [360Controller](https://github.com/360Controller/360Controller/releases)
 
-## Example
+## Example View (Static)
 
 ![Xbox One Controller](https://github.com/headlightstudios/bestyled-gamepad/raw/master/demo.png "Responsive Preview")]
+
+See [Live Demo](http://headlightstudios.com/bestyled-gamepad/) and connect your gamepad to this browser.
 
 ## Usage
 
