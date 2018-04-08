@@ -10,7 +10,7 @@ For example, use a wired XBox One Controller on a Mac and Chrome with [360Contro
 
 ## Example View (Static)
 
-![Xbox One Controller](https://github.com/headlightstudios/bestyled-gamepad/raw/master/demo.png "Responsive Preview")]
+![Xbox One Controller](https://github.com/headlightstudios/bestyled-gamepad/raw/master/demo.png "Responsive Preview")
 
 See [Live Demo](http://headlightstudios.com/bestyled-gamepad/) and connect your gamepad to this browser.
 
