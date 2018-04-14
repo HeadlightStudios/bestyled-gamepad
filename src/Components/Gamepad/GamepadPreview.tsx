@@ -24,6 +24,7 @@ const GamepadCanvas = styled.canvas`
 
 export type GamepadPreviewProps = {
     layout?: LayoutProps,
+    src?: string,
     padState?: {
       connected: boolean,
       buttons: object,
@@ -65,7 +66,7 @@ export class GamepadPreview extends React.Component<GamepadPreviewProps> {
         this.gamepadCanvasElement.height = this.layout.size.h;
         this.gamepadRenderingContext = this.gamepadCanvasElement.getContext("2d");
         var pxloader = new PxLoader();
-        this.spriteimage = pxloader.addImage(this.layout.src);
+        this.spriteimage = pxloader.addImage(this.props.src || this.layout.src);
         pxloader.addCompletionListener(() => {
             window.requestAnimationFrame(this.updateAnimationBound)
         });

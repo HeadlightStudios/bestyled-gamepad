@@ -1,6 +1,6 @@
 {
   "name": "@bestyled/gamepad",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "repository": "https://github.com/headlightstudios/bestyled-gamepad",
   "license": "Apache-2.0",
@@ -21,7 +21,7 @@
   "scripts": {
     "start": "fuse-box-react-scripts start",
     "build": "rimraf docs && fuse-box-react-scripts build && cp -a ./build ./docs",
-    "dist": "rimraf dist && tsc --p tsconfig-dist.json && cp -a ./public ./dist",
+    "dist": "rimraf dist && tsc --p tsconfig-dist.json",
     "test": "fuse-box-react-scripts test --env=jsdom",
     "eject": "fuse-box-react-scripts eject",
     "ejectconfig": "fuse-box-react-scripts ejectconfig"
@@ -40,7 +40,8 @@
     ]
   },
   "files": [
-    "dist/"
+    "dist/",
+    "public/"
   ],
   "directories": {
     "config": "node_modules/fuse-box-react-scripts-ts/config"

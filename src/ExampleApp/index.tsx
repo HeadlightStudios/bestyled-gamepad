@@ -54,6 +54,8 @@ class App extends React.Component<any, any> {
 
   /** Main render method */
   render() {
+
+
     return (
       <Panel>
         <Gamepad index={0}
@@ -61,7 +63,7 @@ class App extends React.Component<any, any> {
           onDisconnect={this.disconnectHandler.bind(this)}
           onAxis={this.onAxisValue.bind(this)}
           onButton={this.onButton.bind(this)} >
-          <GamepadPreview />
+          <GamepadPreview src="http://res.cloudinary.com/headlight/image/upload/v1523206548/gamepadSprite.png"/>
         </Gamepad>
         {this.state.connected &&
           <PanelRow>

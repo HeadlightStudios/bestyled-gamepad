@@ -3,6 +3,7 @@ import { LayoutProps } from './layouts';
 import * as React from 'react';
 export declare type GamepadPreviewProps = {
     layout?: LayoutProps;
+    src?: string;
     padState?: {
         connected: boolean;
         buttons: object;

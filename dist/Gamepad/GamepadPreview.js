@@ -29,7 +29,7 @@ var GamepadPreview = (function (_super) {
         this.gamepadCanvasElement.height = this.layout.size.h;
         this.gamepadRenderingContext = this.gamepadCanvasElement.getContext("2d");
         var pxloader = new PxLoader_1.default();
-        this.spriteimage = pxloader.addImage(this.layout.src);
+        this.spriteimage = pxloader.addImage(this.props.src || this.layout.src);
         pxloader.addCompletionListener(function () {
             window.requestAnimationFrame(_this.updateAnimationBound);
         });
