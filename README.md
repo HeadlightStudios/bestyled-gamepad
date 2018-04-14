@@ -1,4 +1,4 @@
-# BeStyled Gamepad
+# @BeStyled/gamepad
 
 A HTML5 gamepad component for React with responsive preview.
 
@@ -28,7 +28,7 @@ render() {
 
 ## To Do
 
-* Extract to dist folder and publish as npm package
+* Update example to use npm @bestyled/gamepad
 
 ## License
 

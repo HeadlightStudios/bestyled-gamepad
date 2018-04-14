@@ -1,10 +1,12 @@
 {
-  "name": "bestyled-gamepad",
+  "name": "@bestyled/gamepad",
   "version": "0.1.0",
   "private": false,
+  "repository": "https://github.com/headlightstudios/bestyled-gamepad",
   "license": "Apache-2.0",
   "author": "Headlight Studios",
   "main": "/dist/index.js",
+  "types": "./dist/index.d.ts",
   "devDependencies": {
     "fuse-box-react-scripts": "3.0.78",
     "fuse-box-react-scripts-ts": "3.0.78",
