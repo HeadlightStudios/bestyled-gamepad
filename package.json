@@ -1,6 +1,6 @@
 {
   "name": "@bestyled/gamepad",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "repository": "https://github.com/headlightstudios/bestyled-gamepad",
   "license": "Apache-2.0",
@@ -10,13 +10,12 @@
   "devDependencies": {
     "fuse-box-react-scripts": "3.0.78",
     "fuse-box-react-scripts-ts": "3.0.78",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "gaugeJS": "^1.3.6"
   },
   "dependencies": {
-    "gaugeJS": "^1.3.6",
-    "mobx": "^4.1.1",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1"
   },
   "scripts": {
     "start": "fuse-box-react-scripts start",
