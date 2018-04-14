@@ -4,6 +4,7 @@
   "private": false,
   "license": "Apache-2.0",
   "author": "Headlight Studios",
+  "main": "/dist/index.js",
   "devDependencies": {
     "fuse-box-react-scripts": "3.0.78",
     "fuse-box-react-scripts-ts": "3.0.78",
@@ -18,6 +19,7 @@
   "scripts": {
     "start": "fuse-box-react-scripts start",
     "build": "rimraf docs && fuse-box-react-scripts build && cp -a ./build ./docs",
+    "dist": "rimraf dist && tsc --p tsconfig-dist.json && cp -a ./public ./dist",
     "test": "fuse-box-react-scripts test --env=jsdom",
     "eject": "fuse-box-react-scripts eject",
     "ejectconfig": "fuse-box-react-scripts ejectconfig"
@@ -35,6 +37,9 @@
       "not ie < 11"
     ]
   },
+  "files": [
+    "dist/"
+  ],
   "directories": {
     "config": "node_modules/fuse-box-react-scripts-ts/config"
   }

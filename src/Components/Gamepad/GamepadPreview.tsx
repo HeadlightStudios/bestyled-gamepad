@@ -1,6 +1,5 @@
 
 import PxLoader from './lib/PxLoader';
-import PxGamepad from './lib/PxGamepad';
 import { xboxOne as defaultLayout, LayoutProps } from './layouts'
 
 import * as React from 'react';
